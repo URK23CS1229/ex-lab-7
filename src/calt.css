@@ -1,0 +1,64 @@
+.tracker-container {
+  max-width: 420px;
+  margin: 30px auto;
+  background-color: #f9fafc;
+  border: 2px solid #dbe2ef;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  font-family: "Segoe UI", sans-serif;
+}
+
+h2 {
+  text-align: center;
+  color: #112d4e;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #3f72af;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-top: 5px;
+}
+
+button {
+  background-color: #3f72af;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  width: 100%;
+  font-weight: bold;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #112d4e;
+}
+
+.results {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #e8f0fe;
+  border-radius: 8px;
+}
+
+.warning {
+  color: red;
+  font-weight: bold;
+}
+
+.success {
+  color: green;
+  font-weight: bold;
+}
